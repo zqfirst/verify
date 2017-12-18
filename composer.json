@@ -1,0 +1,13 @@
+{
+    "name": "zhangqiang/verify",
+    "description": "基础验证类",
+    "type": "library",
+    "authors": [
+        {
+            "name": "zhangqiang",
+            "email": "zhangqiang@wangcaigu.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
