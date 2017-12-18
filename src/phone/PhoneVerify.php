@@ -42,7 +42,7 @@ class PhoneVerify
     private static function phoneCheck($num)
     {
 
-        if(preg_match('/[1]{1}([3,5]{1}\d{1} | [4]{1}[7]{1} | [7，8]{1}[6.7.8.9]{1} )\d{8}/',$num)){
+        if(preg_match('/^[1]{1}(([35]{1}\d{1})||([4]{1}[7]{1})||([78]{1}[6789]{1}))\d{8}$/',$num)){
             return true;
         }
 
