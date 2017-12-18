@@ -15,7 +15,7 @@
   ]
 ```
 
-##### 2、在yii的composents中添加如下配置：
+##### 2、在yii的components中添加如下配置：
 ```
   'components'     => [
 		'idcard' => [
