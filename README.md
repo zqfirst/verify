@@ -17,11 +17,11 @@
 
 ##### 2、在yii的components中添加如下配置：
 ```
-  'components'     => [
-		'idcard' => [
-            'class' => 'Verify\idcard\IdcardVerify'
-        ]
-	],
+  'components' => [
+    'idcard' => [
+      'class' => 'Verify\idcard\IdcardVerify'
+    ]
+  ],
 ```
 
 ##### 3、代码中调用
